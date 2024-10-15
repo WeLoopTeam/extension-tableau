@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+  manifest-version="0.1"
+  xmlns="http://www.tableau.com/xml/extension_manifest"
+>
+  <dashboard-extension id="ai.weloop.tableau" extension-version="1.0.0">
+    <default-locale>en_US</default-locale>
+    <name resource-id="name" />
+    <description>WeLoop</description>
+    <author
+      name="weloop"
+      email="contact@weloop.ai"
+      organization="WeLoop"
+      website="https://weloop.ai"
+    />
+    <min-api-version>1.12.0</min-api-version>
+    <source-location>
+      <url>https://cdn.weloop.ai/tableau/weloop.html</url>
+    </source-location>
+    <icon
+      >iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAACXBIWXMAAAHjAAAB4wGoU74kAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAACetJREFUeJztnX1wFOUdxz+/vUsIhpAXE1EsAsXBaknCi3XEjg7piwjTgoCk1NYydhycoralVi3tUMxUKi0mTLVCjX1BbUcFhcKI4gsDI+PLIK0FGQVfBlQExZAGCEpyd/vrH5jMJWBzl+ze7t3zfP7b53Z/zzfZz+3tPbv7nKgqFnNxgg5gCRYrgOFYAQzHCmA4VgDDsQIYjhXAcKwAhmMFMBwrgOFYAQzHCmA4VgDDsQIYjhXAcKwAhmMFMBwrgOFYAQzHCmA4VgDDsQIYjhXAcKwAhhMNOkCmmNjcPMQRGYrIGYhE/OjDaW/fsr6i4kM/avtFTgswubn5CyryY0SmOo4zsvMFn56GSkQik4ANvhT3iZwUoGbv3oKCkpJFiMxFpCDoPGEm5wSY1NIyrKCk5HFgLCJBxwk9OSXA5U1NgyPR6CZgWNBZsoWc+RZQC/mRaPRJ7M5Pi5wR4EhLy21AddA5so2cEGBya2uFwPygc2QjOSEAicRsoH/QMbKR3BBAdVbQEbKVrBegFvIVKoPOka1kvQAtTU3lQGvQObKVrBfgmfLy/eK6w4EFWBHSJusFAHiyrOzIUyUld7giVcALQefJJjI/Eri5JkrZmeNJ6HBEz0YpTnlbkUOIHgB9k+ovb4OFbvLLTxcX77kQaioOH34A1e96nj1Nls/gapSq7u0KChxE+TAivH79arYHEA8Aydg8gTtqz8ONzAedApR6UPEj0Mdw8hZT9fd9yS/UQqS1peV+hWs96Cdl1HUnbSgr67wauHwajyB8J4VN3xXhUSfGkjnraPIx4kn4/xHw9uR+bJ91N66zE3Q23ux8gEEgN7iaePvVXbc/DnWdf8tKSHxaUjJH4XmP+vKboarcmojy9vLp/AwhY1ex/BVg59WDaC3ehHITPn3cOKr9xhzfNf3N1z/Z+9p78zvl2gRx4vFZkNl3VB8pBuqXT+PRximclokO/RPgpdr+xN0nQMf71kcSI9vfHTKgNbaTzTWdom0oLz+gqrdnon+PmZmIsHpVLb7cuZSMfwL0lweBC32rfwqGt+8bvOPMS59JbmsrLb0P1d2ZzOEJwsSmOHf63Y0/AmyfdTnIVb7U7oHK42/VbH5nyRUdy5sgjkhjEFk84OZ7ZzDWzw58OgLIb/2pm0LPKINjh5Ylt+VFIg8CsYAi9QXHURb52oHnFV+tvQDVcZ7XTYMRbe8Pf37noiEdy+uKipoQ+VeQmfrAxGVXMqTn1XqHD0cAZ4r3NdMjogkSBQXzkttE1fcRQsdxPu3SIOR5UFYcYaoHdU6J9wJIOK7MFSTaL+7W9LrffcYdZ3+XBmWgF3UVfPsm5cc5wGAfaqZNgbadlbys/o8HxAuOHfugS4vj0f2Jwtme1DkFfgjg1Uhfn+ivbYVdGlSbfe5yy7qzzvqkY+GuiRSi3gigMMiLOqciJ64GnpJuzwS4qu7nrOlNd7Amefm0Qi7Fo9FPwb8BodwVILMczIvHVyQ3ODA9oCxpYQXwAFVduLa8/GjH8l+nUqQwM8hMqWIF6CMK/xxfWtplpLEtwlygJKBIaWEF6Bvb2mKxaxZC5/nFn6cyCPhFgJnSwgrQex5z29ombKqo6LwPcVUtkViEFWTJux9y7OHQZAbHP37Lj7oC76nqrzaUlv7js1u7Ovns6t0Vn7NpKMlZAQbGjx72sNx/gY2quub44cOrNw0bdrz7CstmMFfgFg/7zAg5K0B3ni4re/GKI0dOF5EK13UHpLRRPH6sX3v7e8kDPJR2HedaVUukKc4igds8DZwhjBEAYMPAgc2AZyOC905npMAfBb7pVc1Mk8sCtPtVuHEK5fEoCxz4EXhyxS8wclcAkQNelmus5ZxEjMtEmKpRvi3Qz8v6QZG7Aijv97XEfVcx2XW5CzgbGIh0O+3PAXJXAPTZvlZoV3ZE4Xwv0oSVXB0I2s/o8/t8C9hNj7MPeNmDPKElVwX4fffnBnuLC4u9qBNWclGAPQw48ievit2whnUoz3lVL2zklgDCccSdxblPtnlWU9GEy2zgoGc1Q0QuCRDD5VqqV271uvCNa9mvMAHIqomgUyFHBJBDqExizCOP+NXD3NW8EXGoQXnVrz6CINsFiAHLiCVGMebhjX53NucxdpXncTHKL4GP/e4vE2TXOIBwHOUAortB1hORtYx6uM8DPukwcyXtwJ2NU/iDG2WaKhMRLuLE7fBFmcziBZmbIcQSSrL9I8DSR6wAhmMFMBwrgOFYAQzHCmA4VgDDsQIYTvhHAsfeU4Eb+xpQiKvb2XFzOOf6GXX3OUQTk3G1GEf2oIn1bP/5saBj9UR4RwKlzqG66Kcov4Eus2ZuxI18j9d+8lFQ0bogCJUNdQjz6fqG+hjV2ey4+amgoqVCeD8Cqop+jVIPJ02Z+nWcxAtUNvg2c1bKnNj5yxEWcPLRtAKRNYyp/0oQ0VIlnAJU1Y/jxA9AfB4jcNjM2PqhmYp0ErWrIlQ1NCJc/3/W6odLYHMmpkI4BXBkJj1n+yIJ2UpV/WWZiNSFqsWl7H7/CeC6nleWCYyqy/c9Uy8JpwCunpHimmcg8hxV9bdSU5eZE9rKhkuQ/FdI/SngKAUFof1Ju3AKIJLOo915iPyO5qKXqVzq3+TUVYtLGd1wDw5bgBGpbyj72Habl08qe0o4BSD+EPBJj6t1ZRyObmV0wxpGN4zxLErV4lKqGxYi+XtQbiTt/5m73LMsPhDer4HVDT8AVkAvfz1DeQWRFQhr+c+8D3reIIlLlvan1Z2AyDXANKCgVxlgI3kDJrFtTmgnqg6vAADV9deB3Effj1RvILIF191FRN8kHvkIxzmKagzHLcaVgTg6AjgPZRzwVXq/008gPEt0wJVsm5PukSyjhFsAgKql1yJ6Pz5OlugDGyiU6bw479OeVw2WkJ4DJLFj3t9AvsWJaVrCj0gjiaNTs2HnQzYcATqoXDICJ7KG8P5OcBvIDWyf95egg6RD+I8AHbx2yzvgjkdkKZAIOk4XlFdw3YuybedDNh0Bkhm99CKU+0FP+lXODHMM1QV86Zy7WTkzXFKmSHYKACeuFlYWzUC4AxiZ4d7bEVmBE6vj37fu73n18JK9AnRQUxflUNH3gbkIfl95Owj6EJFEQ7bv+A6yX4Bkqu8ahUR+iOqVwHCPqrYiPIerD5BftD7Mgzq9IbcESGbU0nOJ8g1ULwW9AOQ8oKeLMgrsBXajuhXYSH7RS7m205PJXQG6I3UOVYVDcSOnI1KCkxiIKxEcPUJCjiJylPzCd8I+cuc15ghgOSXZMw5g8QUrgOFYAQzHCmA4VgDDsQIYjhXAcKwAhmMFMBwrgOFYAQzHCmA4VgDDsQIYjhXAcKwAhmMFMBwrgOFYAQzHCmA4VgDDsQIYjhXAcKwAhvM/pc2u6LVx4VMAAAAASUVORK5CYII=</icon
+    >
+    <permissions>
+      <permission>full data</permission>
+    </permissions>
+  </dashboard-extension>
+  <resources>
+    <resource id="name">
+      <text locale="en_US">WeLoop</text>
+    </resource>
+  </resources>
+</manifest>
