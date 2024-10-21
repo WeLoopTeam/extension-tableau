@@ -3,7 +3,7 @@
   manifest-version="0.1"
   xmlns="http://www.tableau.com/xml/extension_manifest"
 >
-  <dashboard-extension id="ai.weloop.tableau" extension-version="1.0.0">
+  <worksheet-extension id="ai.weloop.tableau" extension-version="1.0.0">
     <default-locale>en_US</default-locale>
     <name resource-id="name" />
     <description>WeLoop</description>
@@ -13,7 +13,7 @@
       organization="WeLoop"
       website="https://weloop.ai"
     />
-    <min-api-version>1.12.0</min-api-version>
+    <min-api-version>1.12</min-api-version>
     <source-location>
       <url>https://cdn.weloop.ai/tableau/weloop.html</url>
     </source-location>
@@ -23,7 +23,7 @@
     <permissions>
       <permission>full data</permission>
     </permissions>
-  </dashboard-extension>
+  </worksheet-extension>
   <resources>
     <resource id="name">
       <text locale="en_US">WeLoop</text>
